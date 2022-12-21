@@ -1,0 +1,11 @@
+provider "github" {
+token = "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"
+
+}
+
+
+resource "github_repository" "example" {
+  name   = "terraform_example"
+   visibility = "private"
+}
+
